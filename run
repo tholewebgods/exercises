@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+CONTAINER_NAME="node:14.19.1-slim"
+
+cmd=( bash )
+
+if [ ${#} -ne 0 ]; then
+	cmd=( "${@}" )
+fi
+
+podman run \
+	-it --rm \
+	-v "$( pwd )":"/home/node" \
+	--workdir="/home/node" "${CONTAINER_NAME}" "${cmd[@]}"
