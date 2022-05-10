@@ -1,6 +1,11 @@
 
 # Functional proigramming / test driven development exercise
 
+## Resources
+
+Learn about Jest: https://jestjs.io/docs/using-matchers
+
+
 ## Requirements
 
 - Node 14+
