@@ -6,6 +6,21 @@
 - Node 14+
 
 
+## Run tests
+
+All test
+
+```
+$ npm run test
+```
+
+Specific tests(s):
+
+```
+$ npm run test dir/test.spec.js ...
+```
+
+
 ## Run node commands in container 
 
 ```
